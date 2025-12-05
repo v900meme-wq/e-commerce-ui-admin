@@ -282,7 +282,7 @@ export default function ProductForm() {
                                                     }`}
                                             >
                                                 <img
-                                                    src={`http://localhost:3000${img.imageUrl}`}
+                                                    src={`http://localhost:3004${img.imageUrl}`}
                                                     alt=""
                                                     className="w-full aspect-square object-cover"
                                                 />

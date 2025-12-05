@@ -46,7 +46,7 @@ export default function TiptapEditor({ content, onChange }: TiptapEditorProps) {
                     headers: { 'Content-Type': 'multipart/form-data' },
                 });
 
-                const imageUrl = `http://localhost:3000${response.data.url}`;
+                const imageUrl = `http://localhost:3004${response.data.url}`;
                 editor?.chain().focus().setImage({ src: imageUrl }).run();
             } catch (error) {
                 alert('Lỗi upload ảnh');

@@ -101,7 +101,7 @@ export default function ProductsList() {
                                                 <div className="w-16 h-16 rounded-lg overflow-hidden bg-admin-100">
                                                     {thumbnail ? (
                                                         <img
-                                                            src={`http://localhost:3000${thumbnail.imageUrl}`}
+                                                            src={`http://localhost:3004${thumbnail.imageUrl}`}
                                                             alt={product.productName}
                                                             className="w-full h-full object-cover"
                                                         />
